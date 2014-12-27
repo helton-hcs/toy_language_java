@@ -1,0 +1,47 @@
+/*myFunc = y => y + 1;
+myFunc(4 + 10.4);
+myFuncB = myFunc;
+
+a = myFuncB(100 + 44);
+a = -a;
+
+if true 1 else 2;
+
+if false 3 else 4;
+*/
+
+//Testando associatividade de operadores
+//if true 3^2^3;
+/*
+  9^3 = 729
+  3^8 = 6561
+*/
+
+/*
+a = 2.3;
+b = c = a = d = 5; //throw an exception: Cannot be bound 2 times
+*/
+
+/*
+callMeWithoutArgs = f => f();
+callMeWithoutArgs(() => "Hello, World");
+
+callMeWithOneArg = (fun, arg) => fun(arg);
+callMeWithOneArg(x => x, "test");
+callMeWithOneArg(x => x, 123.45);
+
+((x, y) => x + y)(4, 5);
+
+1 + 2 + 4;
+
+1 <= 2;
+*/
+
+factorial = (x) => {
+  if x <= 1 then
+    1
+  else
+    factorial(x - 1) * x
+};
+
+factorial(4)
